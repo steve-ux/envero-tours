@@ -1,12 +1,36 @@
+import Navigator from "../components/Navigator/Navbar";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 function Home() {
-    return (
-    <div className="home">
-    <p><strong>Navbar</strong> con logo en la parte superior izquierda y menú a la derecha (Home, Quienes Somos, Contacto).</p>
-    <p><strong>Foto de paisaje.</strong> Isologotipo superpuesto a la imagen.</p>
-    <p><strong>Footer dividido en 3:</strong> [Nombre agencia y Provincia, país.][Propietario web, mail y teléfono.][Certificado oficial del gobierno y link para denunciar agencia]</p>
-    <p><strong>Segundo footer</strong> de copyright - año - Nombre agencia - Provincia y país - Programador web.</p>
-    </div>
-    );
-  }
-  
-  export default Home;
+  return (
+    <>
+      <div className="home">
+        <Navigator/>
+        <Header/>
+        <Footer/>
+        <br/>
+        <footer>
+          Copyright ©{" "}
+          <span id="get-current-year">{new Date().getFullYear()}</span> - Envero
+          Tours - Viajes y Turismo | Mendoza | Argentina{" "}
+          <p className="text-footer2">
+            Web creada por{" "}
+            <span>
+              <a
+                href="https://linktr.ee/steve.ok"
+                target="_blank"
+                rel="noreferrer"
+                className="firma"
+              >
+                MendoWebx.
+              </a>
+            </span>
+          </p>
+        </footer>
+      </div>
+    </>
+  );
+}
+
+export default Home;
