@@ -31,7 +31,7 @@ const Nav = styled.nav`
   }
   @media (max-width: 769px) {
     .logo {
-      width: 12vw;
+      width: 14vw;
     }
   }
   @media (max-width: 520px) {
@@ -41,20 +41,16 @@ const Nav = styled.nav`
   }
   @media (max-width: 420px) {
     .logo {
-      width: 18vw;
+      width: 12vw;
     }
-    img {    
-      filter: drop-shadow(3px 5px 20px red);
-      width: 30vw;
-      height: 4vh;
+    img {
+      width: 12vw;
       margin-top: 1rem 
     }
     
     @media (max-width: 320px) {
-      img {    
-        filter: drop-shadow(3px 5px 20px red);
-        width: 30vw;
-        height: 4vh;
+      img {
+        width: 12vw;
         margin-top: 1rem 
       }
     }

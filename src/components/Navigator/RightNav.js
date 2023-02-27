@@ -6,6 +6,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
+  height: 100%;
 
 
   ul, ol {
@@ -22,7 +23,7 @@ const Ul = styled.ul`
   .nav li a {
     color: white;
     text-decoration:none;
-    padding:10px;
+    padding: 10px;
     display:block;
     cursor: pointer;
   }
@@ -56,16 +57,16 @@ const Ul = styled.ul`
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: black;
+    background-color: #001220;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     width: 230px;
-    padding-top: 3rem;
+    padding-top: 2rem;
     transition: transform 0.3s ease-in-out;
-    z-index: 19;
+    z-index: 18;
 
     li {
       color: white;
@@ -83,8 +84,8 @@ const RightNav = ({ open }) => {
     <Ul open={open} id="menu">
       <ul className="nav">
 				<li><Link to="/">HOME</Link></li>
-        <li><a href="#Nosotros">QUIENES SOMOS</a></li>
-        <li><a href="#Eleginos">CONTACTO</a></li>					
+        <li><Link to="/AboutUs">QUIENES SOMOS</Link></li>
+        <li><Link to="/Contact">CONTACTO</Link></li>					
 			</ul>
     </Ul>
   )
