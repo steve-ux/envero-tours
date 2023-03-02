@@ -21,7 +21,7 @@ function Nosotros() {
       <p className="info"><span>Responsable:</span> Nicolás Romero Bilen</p>
       <p className="info"><span>Celular: </span><a href="tel:+54 9 261 341 3569">+54 9 261 341 3569</a></p>
       <hr></hr>
-      <p className="epigrafe">Para denunciar una agencia, <a href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes" target="_blank" rel="noreferrer"> hacé clic acá.</a></p>
+      <p className="epigrafe">Para denunciar una agencia, <a href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes" target="_blank" rel="noreferrer" className="link">hacé clic acá.</a></p>
       </div>
 
     </div>
