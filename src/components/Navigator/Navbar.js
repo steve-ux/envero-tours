@@ -30,30 +30,32 @@ const Nav = styled.nav`
     }
   }
   @media (max-width: 769px) {
-    .logo {
-      width: 14vw;
+    img {    
+      width: 18vw;
+      padding: 1px;
     }
   }
   @media (max-width: 520px) {
     .logo {
-      width: 14vw;
-    }
-  }
-  @media (max-width: 420px) {
-    .logo {
-      width: 12vw;
-    }
-    img {
-      width: 12vw;
+      width: 18vw;
       margin-top: 1rem 
     }
+  }
+  @media (max-width: 425px) {
+    
+    img {    
+      width: 22vw;
+      padding: 1px;
+    }
+  }
     
     @media (max-width: 320px) {
       img {
-        width: 12vw;
-        margin-top: 1rem 
+        width: 24vw;
       }
     }
+
+
   }
 `;
 
