@@ -10,7 +10,7 @@ function Contacto() {
       <div className="formulario">
     <h3>Envianos tu consulta, dejanos tus datos y te responderemos a la brevedad.</h3> 
 
-      <form action="https://formsubmit.co/exe.universal@gmail.com" method="post">
+      <form action="https://formsubmit.co/info@thisismendoza.com" method="post">
       {/* info@thisismendoza.com */}
       <label for="nombre">Nombre y Apellido:</label>
       <input type="text" id="full_name" name="Nombre" required className="datos"/><br/>
