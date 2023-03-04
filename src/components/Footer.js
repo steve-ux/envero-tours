@@ -16,7 +16,7 @@ function Footer() {
         </div>
         <div data-aos="fade-right" className="div3">
         <img src={LogoMinisterio} alt="Logo Ministerio de Turismo y Deportes" width="100"/>
-        <h4>Certificado permiso precario, <a href="www.google.com" target="_blank" rel="nonreferrer">aquí.</a></h4>
+        <h4>Certificado permiso precario, <a href="https://raw.githubusercontent.com/steve-ux/envero-tours/e2d516d18fee2ebe8d12b1166e708e38dcf4083f/src/assets/PV-2022-136383912-APN-DRAV%2523MTYD.pdf" target="_blank" rel="noreferrer">aquí.</a></h4>
         <p>Para denunciar una agencia, <a href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes" target="_blank" rel="noreferrer">hacé clic acá.</a></p>
         </div>  
     </div>
