@@ -11,7 +11,7 @@ function Contacto() {
     <h3>Envianos tu consulta, dejanos tus datos y te responderemos a la brevedad.</h3> 
 
       <form action="https://formsubmit.co/info@thisismendoza.com" method="post">
-      {/* info@thisismendoza.com */}
+        
       <label for="nombre">Nombre y Apellido:</label>
       <input type="text" id="full_name" name="Nombre" required className="datos"/><br/>
 
@@ -25,7 +25,7 @@ function Contacto() {
     <textarea id="message" name="Consulta" rows="5" cols="30" required></textarea><br/>
 
     <button className="btnEnviar">Enviar</button>
-    <input type="hidden" name="_next" value="https://localhost:3000/Enviado"/>
+    <input type="hidden" name="_next" value="https://enverotours.tur.ar/Enviado"/>
     <input type="hidden" name="_subject" value="Nueva consulta desde la web!"/>
     <input type="hidden" name="_captcha" value="false" />
     </form>
