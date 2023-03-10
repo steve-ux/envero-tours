@@ -50,7 +50,7 @@ function Contacto() {
                 rel="noreferrer"
                 className="firma"
               >
-                MendoWebx.
+                PixelPeak.
               </a>
             </span>
           </p>

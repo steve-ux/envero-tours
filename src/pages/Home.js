@@ -23,7 +23,7 @@ function Home() {
                 rel="noreferrer"
                 className="firma"
               >
-                MendoWebx.
+                PixelPeak.
               </a>
             </span>
           </p>
