@@ -11,7 +11,7 @@ function Footer() {
         <div data-aos="fade-down" className="div2">
         <h4>Nicolás Romero Bilen</h4>
         <p>Permiso precario número: PV-2022-136383912</p>
-        <p>Mail: <a href="mailto:info@thisismendoza.com">info@thisismendoza.com</a></p>
+        <p>Mail: <a href="mailto:nicolasromero88@gmail.com">nicolasromero88@gmail.com</a></p>
         <p>Cel: <a href="tel:+54 9 261 341 3569">+54 9 261 341 3569</a></p>
         </div>
         <div data-aos="fade-right" className="div3">
