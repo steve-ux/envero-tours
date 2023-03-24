@@ -7,7 +7,7 @@ function Footer() {
             <h4>Envero Tours</h4>
             <h4 className="viajesTurismo">Viajes y Turismo</h4>
             <p>Mendoza - Argentina</p>
-            <p>Oficina virtual, <a href="https://raw.githubusercontent.com/steve-ux/envero-tours/e2d516d18fee2ebe8d12b1166e708e38dcf4083f/src/assets/PV-2022-136383912-APN-DRAV%2523MTYD.pdf" target="_blank" rel="noreferrer">aquí.</a></p>
+            <p>Oficina virtual, <a href="https://raw.githubusercontent.com/steve-ux/envero-tours/6a47e6205b61b2ee1131ca320ae28dfffaa38c71/src/assets/Oficina_virtual.pdf" target="_blank" rel="noreferrer">aquí.</a></p>
         </div>
         <div data-aos="fade-down" className="div2">
         <h4>This Is Mendoza S.A.</h4>
